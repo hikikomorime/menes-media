@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+#mfPreviewBar {
+	display: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+img {
+    width: 100% !important;
+    height: auto !important;
+}
+.logo {
+	top: 0px;
+	left: 0px;
+	position:fixed;
+	z-index: 5;
+}
+.menu {
+	top: 40%;
+	right: 0;
+	height: 250px;
+	width: 112px;
+	position:fixed;
+	float:right;
+	z-index: 99999;
+}
+.title {
+	font-family: 'Muller Heavy';
+	font-size: 120px;
+	letter-spacing: -1px;
+	color: #C7B299;
+	text-align:center;
+	z-index: -2;
+	position: relative;
+}	
+.home {
+	width: 100vw;
+	height: 100vh;
+	min-height: 800px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.homebg1 {
+	bottom: 0px;
+	float: left;
+	position: absolute;
+}
+.homebg2 {
+	top: 0px;
+	float: right;
+	position:relative;
+}
+.about {
+	width: 100vw;
+	height: 100vh;
+	min-height: 800px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.aboutbg1 {
+	position: fixed;
+	z-index: -1;
+}
+.services {
+	width: 100%;
+	height: 100vh;
+	min-height: 800px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.servicesbg1 {
+	position: absolute;
+	right: 0px;
+}
+.work {
+	width: 100%;
+	height: 100vh;
+	min-height: 800px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.workbg1 {
+	position: absolute;
+	z-index: -1;
+}
+.workbg2 {
+	position: absolute;
+	right: 0px;
+	z-index: -1;
+}
+.contact {
+	width: 100%;
+	height: 100vh;
+	min-height: 800px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.contactbg1 {
+	position: absolute;
+	bottom: -90px;
+}
+.contactbg2 {
+	position: absolute;
+	right: 0px;
+	bottom: -90px;
+}
+.home-logo {
+	 position:absolute;
+  top:50%;
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.about_txt {
+	background-color: white;
+	opacity: 0.8;
+	padding: 15px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: helvetica, arial;
+	max-width: 50%;
+	margin-top: 5em;
+	margin-left: 25vw;
+	z-index: 777;
+}
+.services_txt {
+	background-color: white;
+	opacity: 0.8;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: helvetica, arial;
+	max-width: 50%;
+	margin-top: 1em;
+	margin-left: 20vw;
+	z-index: 777;
+}
+.work_img {
+	max-width: 250px;
+	z-index: 777;
+}

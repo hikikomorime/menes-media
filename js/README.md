@@ -1,2 +1,0 @@
-# menes-media
-website project

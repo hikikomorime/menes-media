@@ -1,1 +1,122 @@
-tester
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menes Media</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      /*
+      * Plugin intialization
+      */
+        $('#pagepiling').pagepiling({
+          menu: '#menu',
+          anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+          sectionsColor: ['white', 'white', 'white', 'white', 'white'],
+          verticalCentered: true,
+          css3: true,
+        navigation: {
+            'textColor': '#000',
+            'bulletsColor': '#000',
+            'position': 'right',
+            'tooltips': ['HOME', 'ABOUT', 'SERVICES', 'WORK', 'CONTACT']
+        },
+          afterRender: function(){
+            $('#pp-nav').addClass('custom');
+          }
+      });
+
+      });
+    </script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+<div class="logo"><img src="img/logo.png" width="44" height="35" alt=""/></div>
+    <!-- treść -->
+     <div id="pagepiling">
+     <!-- pile -->
+        <div class="home section" id="HOME">
+          <div class="home-logo"><img src="img/menes-media-logo-big.png" alt=""/></div>
+          <div class="homebg2"><img src="img/flowers-topright.png" alt=""/></div>
+          <div class="homebg1"><img src="img/flowers-bottomleft.png" alt=""/></div>
+        </div>
+
+        <div class="about section" id="ABOUT">
+          <div class="aboutbg1"><img src="img/flowers-topleft.png" alt=""/></div>
+          <div class="title" id="fit1">ABOUT US</div>
+          <div class="about_txt">We seek to learn about your vision and your story, so ours and yours can work hand in hand. Creating a visually compelling representation of your brand that reflects who you are and what you do. Because together we work better.
+          <br /><br />
+          Designed with passion</div>
+        </div>
+
+        <div class="services section" id="SERVICES">
+          <div class="servicesbg1">
+          <img src="img/flowers-topright.png" width="932" height="598" alt=""/></div>
+          <div class="title" id="fit2">SERVICES</div>
+          <div class="services_txt">
+          	Our agency has specialties in graphic design, website creation, animation, and brand identity, encompassing many business spheres from entertainment to corporate and beyond. We make our clients happy. Let us show you what we can do for you:
+          	<br /><br />
+          	<ul>
+          	<li>Web Design and Development</li>
+			<li>Mobile Application Design and Development</li>
+			<li>Creative Management</li>
+			<li>Interactive Design</li>
+			<li>Branding</li>
+			<li>Concept Development</li>
+			<li>E-commerce</li>
+			<li>Photography and Filmmaking</li>
+			<li>Print Design</li>
+			<li>Illustration</li>
+			<li>Animation</li>
+          	</ul>
+          </div>
+        </div>
+
+        <div class="work section" id="WORK">
+          <div class="workbg1"><img src="img/flowers-topleft.png" alt=""/></div>
+          <div class="title" id="fit3">WORK</div>
+          <div class="work_txt">
+          	<img class="work_img" src="http://lorempixel.com/image_output/technics-q-g-250-250-7.jpg">
+          	<img class="work_img" src="http://lorempixel.com/image_output/technics-q-g-250-250-7.jpg">
+          	<img class="work_img" src="http://lorempixel.com/image_output/technics-q-g-250-250-7.jpg">
+          </div>
+        </div>
+
+        <div class="contact section" id="CONTACT">
+          <div class="contactbg2"><img src="img/flowers-bottomright.png" alt=""/></div>
+          <div class="contactbg1"><img src="img/flowers-bottomleft.png" alt=""/></div>
+          <div class="title" id="fit4">CONTACT</div>
+          <div class="mediaform"></div>
+        </div>
+    <!-- end pile -->
+    </div>
+    <script type="text/javascript">
+    (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=270929(font-family=Muller+Ultra+Light)&sid=270930(font-family=Muller+Regular)&sid=270932(font-family=Muller+Medium)&sid=270937(font-family=Muller+Heavy)&key=7lwmwG3hKT',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
+<script src="js/jquery.fittext.js"></script>
+<script>
+  $("#fit1").fitText();
+  $("#fit2").fitText();
+  $("#fit3").fitText();
+  $("#fit4").fitText();
+  $("#fit5").fitText();
+</script>
+</body>
+</html>
